@@ -1,0 +1,13 @@
+FROM node:26-alpine
+
+WORKDIR /app
+
+COPY package*.json ./
+
+RUN npm install
+
+COPY . .
+
+EXPOSE 8000
+
+CMD ["npx", "nodemon", "--legacy-watch", "server.js"]

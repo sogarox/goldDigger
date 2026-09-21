@@ -1,5 +1,24 @@
 {
-  "dependencies": {
-    "node": "^26.9.0"
+  "name": "golddigger",
+  "version": "1.0.0",
+  "description": "an app for investing on gold",
+  "homepage": "https://github.com/sogarox/goldDigger#readme",
+  "bugs": {
+    "url": "https://github.com/sogarox/goldDigger/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sogarox/goldDigger.git"
+  },
+  "license": "ISC",
+  "author": "sogarox",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
