@@ -5,12 +5,14 @@ import { sanitizeInput } from '../utils/sanitizeInput.js'
 export async function handleGet(res) {
     const data = await getData()
     const content = JSON.stringify(data)
-    sendResponse(res, 200, 'text/json', content)
+    sendResponse(res, 200, 'application/json', content)
 }
 
 export async function handlePost(req, res) {
     try{
         const parsedBody = await parseJSONbody(req)
+        const sanitzedBody = sanitizeInput(parsedBody)
+        
     }catch(err){
 
     }

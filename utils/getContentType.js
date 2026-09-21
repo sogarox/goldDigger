@@ -1,6 +1,6 @@
-export function getContentType(ext){
+export function getContentType(ext) {
 
-    const types = {
+  const types = {
     ".js": "text/javascript",
     ".css": "text/css",
     ".json": "application/json",
@@ -8,7 +8,9 @@ export function getContentType(ext){
     ".jpg": "image/jpeg",
     ".jpeg": "image/jpeg",
     ".gif": "image/gif",
-    ".svg": "image/svg+xml"
+    ".svg": "image/svg+xml",
+    ".html": "text/html",
+    ".ico": "image/x-icon"
   }
 
   return types[ext.toLowerCase()] || 'text/html'

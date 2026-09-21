@@ -2,6 +2,7 @@ import * as http from 'http'
 import { handleGet } from './handlers/routeHandlers.js'
 import { sendResponse } from './utils/sendResponse.js'
 import {serveStatic} from './utils/serveStatic.js'
+import { getContentType } from './utils/getContentType.js'
 const PORT = 8000
 const HOST = '0.0.0.0'
 
