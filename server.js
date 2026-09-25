@@ -3,7 +3,7 @@ import { handleGet, handlePost } from './handlers/routeHandlers.js'
 import { sendResponse } from './utils/sendResponse.js'
 import {serveStatic} from './utils/serveStatic.js'
 import { getContentType } from './utils/getContentType.js'
-const PORT = 8000
+const PORT = process.env.PORT || 8000
 const HOST = '0.0.0.0'
 
 const __dirname = import.meta.dirname
