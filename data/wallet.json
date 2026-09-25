@@ -1,0 +1,20 @@
+[
+  {
+    "date": "25/9/2026, 15:57:22",
+    "amount": "amount paid: 26",
+    "price": "price per Oz: 4000",
+    "goldSold": "gold sold: 0.0065"
+  },
+  {
+    "date": "25/9/2026, 15:57:28",
+    "amount": "amount paid: 34",
+    "price": "price per Oz: 4779.42",
+    "goldSold": "gold sold: 0.007113833896163132"
+  },
+  {
+    "date": "25/9/2026, 16:00:35",
+    "amount": "amount paid: 41",
+    "price": "price per Oz: 4996.67",
+    "goldSold": "gold sold: 0.008205464839583163"
+  }
+]
